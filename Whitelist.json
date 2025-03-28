@@ -1,17 +1,17 @@
-const whitelist = {
-  user123: {
-    password: 1234,
-    membershipType: "Premium",
-    experation: 1
+{
+  "user123": {
+    "password": 1234,
+    "membershipType": "Premium",
+    "expiration": 1
   },
-  normalUser4: {
-    password: 152,
-    membershipType: "Normal",
-    experation: 9000
+  "normalUser4": {
+    "password": 152,
+    "membershipType": "Normal",
+    "expiration": 9000
   },
-  owner123: {
-    password: "panda",
-    membershipType: "Owner",
-    experation: 9000
+  "owner123": {
+    "password": "panda",
+    "membershipType": "Owner",
+    "expiration": 9000
   }
-};
+}
