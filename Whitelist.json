@@ -1,1 +1,17 @@
-5553A0D739769ADBBC7A08B9A21DE358950571AB0458B19817812D0C58A6B26F
+const whitelist = {
+  user123: {
+    password: 1234,
+    membershipType: "Premium",
+    experation: 1
+  },
+  normalUser4: {
+    password: 152,
+    membershipType: "Normal",
+    experation: 9000
+  },
+  owner123: {
+    password: "panda",
+    membershipType: "Owner",
+    experation: 9000
+  }
+};
